@@ -11,7 +11,8 @@
     </engines>
 
     <platform name="android">
-        <framework src="" />
+        <framework src="com.unity3d.ads:unity-ads:2.1.2" />
+        <framework src="com.google.ads.mediation:unity:2.1.2.0" />
 
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
         <!-- when add additional mediation plugins -->
@@ -20,7 +21,7 @@
 
     <platform name="ios">
         <pods-config ios-min-version="9.0" use-frameworks="true" />
-        <pod id="" version="5.3.2.0" />
+        <pod id="GoogleMobileAdsMediationUnity" version="2.1.2.0" />
 
         <!-- Prevents compilation failures when using pod's id with additional mediations plugins -->
         <dependency id="cordova-plugin-cocoapod-support" />
