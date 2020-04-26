@@ -12,7 +12,7 @@
 
     <platform name="android">
         <!--<framework src="com.unity3d.ads:unity-ads:2.1.2" />-->
-        <framework src="com.google.ads.mediation:unity:2.4.2.0" />
+        <framework src="com.google.ads.mediation:unity:2.4.2" />
 
         <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
         <!-- when add additional mediation plugins -->
